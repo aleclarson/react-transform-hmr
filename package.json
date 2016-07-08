@@ -2,11 +2,12 @@
   "name": "react-transform-hmr",
   "version": "1.0.4",
   "description": "A React Transform that enables hot reloading React classes using Hot Module Replacement API",
-  "main": "lib/index.js",
-  "files": [
-    "lib",
-    "src"
-  ],
+  "main": "js/index.js",
+  "lotus": {
+    "plugins": [
+      "lotus-babel"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gaearon/react-transform-hmr.git"
