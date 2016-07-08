@@ -1,5 +1,4 @@
 import { getForceUpdate, createProxy } from 'react-proxy';
-import window from 'global/window';
 
 let componentProxies;
 if (window.__reactComponentProxies) {
